@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(43, 35, 35,0.5); */
+}
+.circle{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(73, 153, 228, 1); 
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: inset 12px 12px 120px blue;
+
+
+}
+.rectangle{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20px;
+    top: 35%;
+    left: -40%;
+    animation: train 4s linear infinite;
+    box-shadow: inset 10px 10px 10px brown,inset 20px -10px 10px rgb(240, 26, 26)
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(20px, 20px, 20px, green);
+}
+.dot{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    animation: dot 0.5s linear infinite;
+}
+.dot1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    border-radius: 50%;
+    background-color: green;
+    animation: dot 0.5s linear infinite;
+    animation-delay: 0.2s;
+}
+.dot2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    border-radius: 50%;
+    background-color: green;
+    animation: dot 0.5s linear infinite;
+    animation-delay: 0.1s;
+}
+.dream{
+    position: absolute;
+    left: -50px;
+    top: 10px;
+
+}
+.dream2{
+    position: absolute;
+    left: -50px;
+    bottom: 50px;
+    z-index: -10;
+    
+    
+
+}
+
+
+
+@keyframes train {
+    0%{
+        transform: translateX(0px);
+        
+        transition-timing-function: step-start;
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+@keyframes dot {
+    0%{
+        background-color: yellow;
+        
+    }
+    25%{
+        background-color: green;
+        
+        
+    }
+    50%{
+        background-color: white;
+        
+        
+    }
+    75%{
+        background-color: blue;
+        
+        
+    }
+    100%{
+        background-color: black;
+    }
+    
+}

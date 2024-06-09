@@ -1,0 +1,7 @@
+.bg{
+    outline: 2px solid black;
+    background-image: url(/images/images.jpeg), url(/images/pexels-photo-276514.jpeg);
+    padding: 20em;
+    background-repeat: no-repeat,repeat;
+    background-position: 50%;
+}

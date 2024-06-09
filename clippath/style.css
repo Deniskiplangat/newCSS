@@ -1,0 +1,25 @@
+.imgcontainer{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(5, 5, 5);
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.clipme{
+    width: inherit;
+    height: inherit;
+    background-color: red;
+    /* filter: blur(4px); */
+    transition: width 2s, height 2s, background-color 2s, rotate 2s;
+    
+}
+.clipme:hover{
+    transform: skew(10deg) translate(300px);
+    
+}

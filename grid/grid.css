@@ -1,0 +1,97 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.gridcontainer{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid{
+    width: 15px;
+    height: 150px;
+    
+}
+.one{
+    background-color: red;
+    width: 400px;
+    height: 150px;
+}
+.two{
+    background-color: yellow;
+    width: 400px;
+    height: 150px;
+}
+.three{
+    background-color: blue;
+    width:800px;
+    height: 150px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.four{
+    background-color: aqua;
+    width: 400px;
+    height: 150px;
+}
+.five{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    border-radius: 5%; 
+    height: 400px;
+    position: relative;
+    width: 350px;
+    background-color: black;
+    overflow: hidden;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    
+    width: 350px;
+    height: 400px;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,blue, red);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    /* border-radius: 50%; */
+    width: 350px;
+    height: 400px;
+    top: -50%;
+    left: -50%;
+    background: linear-gradient(0deg,transparent,blue, red,yellow);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay:3s;
+}
+.boxtwo{
+    position: absolute;
+    border-radius: 5%;
+    inset: 7px;
+    background-color: rgba(7, 7, 7,1);
+    
+    z-index: 10;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

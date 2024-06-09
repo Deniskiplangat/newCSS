@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(151, 148, 148,0.4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 50%;
+    background-color: orange;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto;
+}
+#one{
+    justify-self: stretch;
+    background-color: red;
+    
+}
+#two{
+    justify-self: stretch;
+    background-color: rgb(184, 35, 176);
+}
+#three{
+    justify-self: stretch;
+    background-color: rgb(14, 10, 10);
+} 
+#four{
+    justify-self: stretch;
+    background-color: rgb(72, 63, 153);
+}
+#five{
+    justify-self: stretch;
+    background-color: rgb(149, 179, 44);
+}

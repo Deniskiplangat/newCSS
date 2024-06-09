@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.navbar{
+    width: 273px;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.navmain{
+    width: 992px;
+    min-height: 100vh;
+    background-color: green;
+
+    display: flex;
+    gap: 29px;
+    
+}
+
+.container{
+    margin-left: 159px;
+    margin-right: 159px;
+}
+.two{
+    width: 601px;
+    background-color: brown;
+    margin-left: 0;
+}
+.three{
+    width: 350px;
+    background-color: yellow;
+    margin-right: 11px;
+}
+.userinfo{
+   margin-bottom: 10px;
+}
+.logo{
+    border-radius: 50%;
+    background-image: url(/icons/home.svg);
+    background-size: cover;
+    height: 56px;
+    width: 56px;
+    background-color: white;
+}
+.common{
+    width: 260px;
+    margin: auto;
+}
+
+.listcontainer{
+    display: flex;
+    height: 52px;
+    align-items: center;
+    max-width: fit-content;
+    padding-right: 70px;
+    border-radius: 35%;
+}
+.listcontainerone{
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+.listlogo{
+    background-image: url(/icons/home.svg);
+    background-size: cover;
+    height: 27px;
+    width: 27px;
+}
+.listname{
+    display: flex;
+    align-items: center;
+}

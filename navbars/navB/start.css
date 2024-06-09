@@ -1,0 +1,131 @@
+#square{
+    width: 100px;
+  height: 100px;
+  background: red;
+}
+
+#circle{
+    width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+#oval{
+    width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px/50px;
+}
+#triangle{
+    
+        width: 0;
+        height: 0;
+        border-top: 50px solid green;
+        border-right: 300px solid transparent;
+        border-bottom: 50px solid green;
+      }
+
+
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+  }
+  #star-five:before {
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  } 
+  #star-five:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+  #yin-yang {
+    width: 96px;
+    box-sizing: content-box;
+    height: 48px;
+    background: #eee;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    position: relative;
+  }
+  #yin-yang:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #eee;
+    border: 18px solid red;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+  }
+  #yin-yang:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: red;
+    border: 18px solid #eee;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    box-sizing: content-box;
+  } 
+
+  #trial{
+    background: red;
+    height: 200px;
+    width:30px;
+    position: relative;
+    margin-left: 20%;
+  }
+  #trial:before{
+    content: "heyy";
+    background: red;
+    
+    height: 30px;
+    width: 100px;
+    position:absolute;
+    left: -35px;
+    bottom: 120px;
+  }
+
+  #trial:after{
+    content: "heyy";
+    background: red;
+    height: 30px;
+    width: 100px;
+    position:absolute;
+    left: -35px;
+    bottom: 40px;
+  }

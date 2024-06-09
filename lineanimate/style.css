@@ -1,0 +1,108 @@
+body{
+    
+}
+.anim{
+    margin: auto;
+    position: relative;
+    
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    
+}
+h1{
+    margin-top: 60px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.line{
+    animation: draw 4s ease-in-out infinite;
+    animation-delay: 4s;
+
+    border-radius: 50%;
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+}
+.lineone{
+    animation: draw 5s ease-in-out infinite;
+    border-radius: 50%;
+    position: fixed;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: red;
+}
+.linetwo{
+    animation: draw 6s ease-in-out infinite;
+    border-radius: 50%;
+    position: fixed;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+}
+.linethree{
+    animation: draw 7s ease-in-out infinite;
+    border-radius: 50%;
+    position: fixed;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: green;
+}
+
+
+@keyframes draw {
+    0%{
+        width:0px;
+        height: 0px;
+        transform: rotateX('0deg');
+
+    }
+    100%{
+        width: 300px;
+        height: 400px;
+        rotate: 720deg;
+    }
+}
+@keyframes drawone {
+    0%{
+        width:0px;
+        height: 0px;
+        transform: rotateX('0deg');
+
+    }
+    100%{
+        width: 300px;
+        height: 400px;
+        rotate: 720deg;
+    }
+}
+@keyframes drawtwo {
+    0%{
+        width:0px;
+        height: 0px;
+        transform: rotateX('0deg');
+
+    }
+    100%{
+        width: 300px;
+        height: 400px;
+        rotate: 720deg;
+    }
+}
+@keyframes draw {
+    0%{
+        width:0px;
+        height: 0px;
+        transform: rotateX('0deg');
+
+    }
+    100%{
+        width: 300px;
+        height: 400px;
+        rotate: 720deg;
+    }
+}

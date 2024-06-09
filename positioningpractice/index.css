@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 500px;
+    position: relative;
+    height: 500px;
+    background-color: rgb(133, 118, 118);
+    box-shadow: inset 12px 12px 80px yellow;
+    border-radius: 20px;
+}
+.del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(1,1,1,0.2);
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    font-size: 4em;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.text{
+    position: absolute;
+
+    width: 200px;
+    font-size: 2em;
+    top: 35%;
+    right: 25%;
+}
+.button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    bottom: 25%;
+    right: 40%;
+    border-radius: 33%;
+    background-color: brown;
+    cursor: pointer;
+}

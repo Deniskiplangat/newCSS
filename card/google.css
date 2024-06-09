@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.container{
+    height: 526px;
+    width: 285px;
+    background-color: white;
+    border-radius: 5px;
+}
+.box1{
+    height: 19%;
+    background-color: rgba(235, 110, 8, 0.678);
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(3, 218, 175);
+    color: white;
+    position: absolute;
+    top: 50%;
+    /* left: 30%; */
+    border: 3px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    position: absolute;
+    top: 10px;
+    font-size: 1.5em;
+}
+.miniicon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(51, 199, 32);
+    border: 1px white solid;
+    border-radius: 50%;
+    bottom: 15%;
+    right: -5%;
+}
+
+.bigletter{
+    font-size: 4em;
+}
+.miniiconimage{
+    width: 20px;
+    height: 20px;
+    
+}
+.emailimage{
+    width: 15px;
+    height: 15px;
+}
+.iconone{
+    position: absolute;
+    top: 65%;
+    right: 15px;
+
+
+    width: 32px;
+    height: 32px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+}
+.iconone:hover{
+    background-color: rgba(88, 84, 84,0.5);
+    
+    border-radius: 50%;
+}
+
+/* this is the second component */
+.nameandemail{
+    width: inherit;
+    height: 50px;
+    /* background-color: red; */
+    margin-top: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.myname{
+    font-size: 1.3em;
+    font-family: fantasy;
+}
+.myemail{
+    font-size: 1em;
+}
+.threeicons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+    
+
+}
+.threeiconsymbol{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   border: 1px rgba(0, 0, 0,0.7) solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.address{
+    width: 20px;
+    height: 20px;
+}
+.contact{
+    width: 20px;
+    height: 20px;
+}
+.iconn{
+    width: 20px;
+    height: 20px;
+}
+.crownimage{
+    width: 20px;
+    height: 20px;
+}
+.facebookimage{
+    width: 20px;
+    height: 20px;
+}
+.threeiconsymbol:hover{
+    background-color: rgba(88, 84, 84,0.3);
+}
+
+/* /////////////////////////////////////////////another one */
+.syncinfo{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    width: inherit;
+    height: 60px;
+    
+}
+.container-one{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+.hovertest{
+    margin-top: 5px;
+}
+.hovertest:hover{
+    background-color: rgba(88, 84, 84,0.3);
+    
+}
+.container-two{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+.line{
+    width: inherit;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+    
+}
+
+.another{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.endcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+.classone{
+    display: flex;
+    gap: 10px;
+}
+.smallleter{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(91, 172, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.guestimage{
+    width: 15px;
+    height: 15px;
+}
+.plusimage{
+    width: 15px;
+    height: 15px;
+}

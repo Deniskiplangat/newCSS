@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(92, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    border: 3px black solid;
+}
+.inner{
+    width: 25%;
+    background-color: blue;
+    height: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
